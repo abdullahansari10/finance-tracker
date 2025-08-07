@@ -1,0 +1,33 @@
+.heading{
+      background: cadetblue;
+    padding: 10px;
+    color: white;
+}
+
+.card-1 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card .price {
+  font-size: 33px;
+}
+.card .title {
+  font-size: 23px;
+}
+.card .icon i {
+  position: absolute;
+  top: 45px;
+  right: 25px;
+  font-size: 45px;
+}
+/* transaction */
+.transaction-list {
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #f9f9f9
+}
+.transaction-time {
+  font-size: 0.75rem;
+}

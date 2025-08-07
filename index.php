@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="asset/css/style.css">
+</head>
+
+<body>
+  <section id="dashBoard">
+    <h1 class="text-center heading">Finance Tracker</h1>
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="">
+            <div class="card card-1 p-3">
+              <p class="price text-success" id="creditPrice">$100</p>
+              <p class="title text-success">Credit</p>
+              <div class="icon text-end"><i class="fa-solid fa-arrow-up text-success"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="">
+            <div class="card card-1 p-3">
+              <p class="price text-danger" id="debitPrice">$100</p>
+              <p class="title text-danger">Debit</p>
+              <div class="icon text-end"><i class="fa-solid fa-arrow-down text-danger"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="">
+            <div class="card card-1 p-3">
+              <p class="price text-primary" id="total">$100</p>
+              <p class="title text-primary">Total</p>
+              <div class="icon text-end"><i class="fa-solid fa-wallet text-primary"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container mt-4">
+      <div class="row justify-content-center">
+        <div class="col-2">
+          <input type="number" class="form-control" id="amountInput" placeholder="Enter Amount">
+
+        </div>
+        <div class="col-2 col-md-4">
+          <textarea rows="1" class="form-control" id="descInput" placeholder="Description"></textarea>
+        </div>
+        <div class="col-2">
+          <div class="">
+            <input type="date" name="" id="dateInput" class="form-control" placeholder="Date">
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="">
+            <button class="btn btn-success" id="creditBtn">Credit</button>
+            <button class="btn btn-danger" id="debitBtn">Debit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <!-- Transaction History -->
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-header bg-white"><strong>Transaction History</strong></div>
+            <div class="transaction-list" id="transactionList">
+              <!-- Transactions will appear here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="asset/js/script.js"></script>
+</body>
+
+</html>
