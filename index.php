@@ -37,7 +37,7 @@
           <div class="">
             <div class="card card-1 p-3">
               <p class="price text-primary" id="total">$100</p>
-              <p class="title text-primary">Total</p>
+              <p class="title text-primary">Balance</p>
               <div class="icon text-end"><i class="fa-solid fa-wallet text-primary"></i></div>
             </div>
           </div>
