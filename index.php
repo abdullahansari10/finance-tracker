@@ -48,23 +48,23 @@
 
   <section>
     <div class="container mt-4">
-      <div class="row justify-content-center">
+      <div class="row">
         <div class="col-2">
-          <input type="number" class="form-control" id="amountInput" placeholder="Enter Amount">
+          <input type="number" class="form-control input-group shadow" id="amountInput" placeholder="Enter Amount">
 
         </div>
-        <div class="col-2 col-md-4">
-          <textarea rows="1" class="form-control" id="descInput" placeholder="Description"></textarea>
+        <div class="col-3 col-md-4">
+          <textarea rows="1" class="form-control input-group shadow" id="descInput" placeholder="Description"></textarea>
         </div>
         <div class="col-2">
           <div class="">
-            <input type="date" name="" id="dateInput" class="form-control" placeholder="Date">
+            <input type="date" name="" id="dateInput" class="form-control input-group shadow" placeholder="Date">
           </div>
         </div>
         <div class="col-2">
           <div class="">
-            <button class="btn btn-success" id="creditBtn">Credit</button>
-            <button class="btn btn-danger" id="debitBtn">Debit</button>
+            <button class="btn btn-success shadow" id="creditBtn">Credit</button>
+            <button class="btn btn-danger shadow" id="debitBtn">Debit</button>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@
       <div class="row">
         <div class="col-12">
           <div class="card">
-            <div class="card-header bg-white"><strong>Transaction History</strong></div>
+            <div class="card-header customColor fs-5"><strong>Transaction History</strong></div>
             <div class="transaction-list" id="transactionList">
               <!-- Transactions will appear here -->
             </div>

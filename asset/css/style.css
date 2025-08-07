@@ -3,7 +3,10 @@
     padding: 10px;
     color: white;
 }
-
+.customColor{
+  background-color: #5F9EA0 ;
+  color: white;
+}
 .card-1 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
